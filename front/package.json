@@ -1,0 +1,33 @@
+{
+  "name": "ogani-snickers",
+  "version": "1.0.0",
+  "description": "ogani page",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "starts": "webpack-dev-server --mode development --open"
+  },
+  "author": "zaza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
